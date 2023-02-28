@@ -18,6 +18,10 @@ Copiare i certificati inviati nella directory cert. Il risultato sarà il seguen
 
 Rinominare ed eventualmente modificare il file .env.example in .env
 
+### XML della chiamata
+
+Create un file xml valido per la chiamata nella directory xml
+
 ### Composer
 
 Eseguire `composer install` per installare le dipendenze
