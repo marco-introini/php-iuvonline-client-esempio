@@ -5,8 +5,6 @@ require __DIR__.'/../vendor/autoload.php';
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__.'/..');
 $dotenv->load();
 
-echo "Chiamata a ".$_ENV['URL'];
-
 $options = [
     'soap_version' => SOAP_1_1,
     'trace' => true,
