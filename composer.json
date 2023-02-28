@@ -1,0 +1,17 @@
+{
+    "name": "mintdev/php-iuvonline-client",
+    "description": "Esempio di chiamata Soap verso IUVonline",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mintdev\\PhpIuvonlineClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marco Introini"
+        }
+    ],
+    "require": {}
+}
