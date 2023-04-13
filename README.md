@@ -29,3 +29,7 @@ Eseguire `composer install` per installare le dipendenze
 ### Chiamata Effettiva
 
 Ora è possibile eseguire il file chiamata.php dentro la directory src
+
+# Certificati CA
+
+I certificati della CA e Intermediate CA sono presenti nella directory public_CA
