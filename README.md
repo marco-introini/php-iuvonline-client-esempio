@@ -53,9 +53,9 @@ Si faccia riferimento a questo esempio:
 
 ```bash
 curl --location '<ENDPOINT>' \
---key "./Certificati/API-GATEWAY/certificatiSvil/SVILUPPO_2018/SVILUPPO_2018.pem" \
--E "./Certificati/API-GATEWAY/certificatiSvil/SVILUPPO_2018/SVILUPPO_2018_CERT.pem" \
---cacert "./Certificati/API-GATEWAY/certificatiSvil/PopsoRootCA01.pem" \
+--key "./cert/SVILUPPO_2018/SVILUPPO_2018.pem" \
+-E "./cert/SVILUPPO_2018/SVILUPPO_2018_CERT.pem" \
+--cacert "./cert/PopsoRootCA01.pem" \
 --header 'SoapAction: http://scrittura.iuvonline.nodospcit.ws.popso.it/v1/IUVOnlineCreate' \
 --header 'Content-Type: text/xml' \
 --data 'IMMETTERE QUI I DATI DA INVIARE'
