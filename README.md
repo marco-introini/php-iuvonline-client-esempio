@@ -8,9 +8,9 @@ Decomprimere, usando la password che vi è stata inviata dalla Banca, il file ws
 directory wsdl.
 Il risultato deve essere il seguente:
 
-![wsdl.png](img%2Fwsdl.png)
+![wsdl.png](img/wsdl.png)
 
-Modificare il wsdl immettendo l'endpoint inviato
+Modificare il wsdl immettendo endpoint inviato
 
 ### Installazione certificati
 
@@ -19,7 +19,7 @@ Anche in questo caso deve essere usata la password inviata.
 
 Il risultato sarà il seguente:
 
-![certificati.png](img%2Fcertificati.png)
+![certificati.png](img/certificati.png)
 
 ### Environment
 
@@ -47,7 +47,7 @@ php chiamata.php
 
 ## Chiamata via cUrl
 
-E' possibile verificare il funzionamento del servizio eseguendo una chiamata usando cUrl.
+È possibile verificare il funzionamento del servizio eseguendo una chiamata usando cUrl.
 
 Si faccia riferimento a questo esempio:
 
