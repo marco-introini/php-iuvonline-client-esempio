@@ -1,6 +1,6 @@
-# Esempio di client PHP per accedere a IUVOnline BPS
+# Esempio di client per accedere a IUVOnline BPS
 
-## Chiamata in SVILUPPO
+## Chiamata in PHP
 
 ### Installazione wsdl
 
@@ -43,6 +43,19 @@ Ora è possibile eseguire il file chiamata.php dentro la directory src
 
 ```bash
 php chiamata.php
+```
+
+## Chiamata in Go
+
+Nella directory src è presente anche un esempio di chiamata in Go.
+
+Per eseguirla:
+
+- modificare il file chiamata.go aggiungendo l'endpoint comunicato da BPS
+- creare nella root del progetto il file request_body.txt dove deve essere inserita la busta soap completa
+- eseguire in src
+```bash
+go run chiamata.go
 ```
 
 ## Chiamata via cUrl
