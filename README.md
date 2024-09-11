@@ -14,8 +14,7 @@ Modificare il wsdl immettendo endpoint inviato
 
 ### Installazione certificati
 
-Decomprimere i certificati (SVILUPPO_2018) nella directory cert.
-Anche in questo caso deve essere usata la password inviata.
+Decomprimere i certificati (SVILUPPO_2018 o POPSO_SVILUPPO) nella directory cert.
 
 Il risultato sarà il seguente:
 
