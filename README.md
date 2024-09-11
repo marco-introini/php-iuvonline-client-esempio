@@ -4,8 +4,7 @@
 
 ### Installazione wsdl
 
-Decomprimere, usando la password che vi è stata inviata dalla Banca, il file wsdlScrittura.zip o wsdlLettura.zip nella
-directory wsdl.
+Decomprimere il file WsdlScrittura.zip o WsdlLettura.zip nella directory wsdl.
 Il risultato deve essere il seguente:
 
 ![wsdl.png](img/wsdl.png)
